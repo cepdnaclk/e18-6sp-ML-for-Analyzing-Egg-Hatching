@@ -1,7 +1,9 @@
 ___
-# DELETE THIS INSTRUCTIONS AND ADD A SHORT INTRODUCTION ABOUT YOUR PROJECT
+# ML for Analyzing Egg Hatching
 ___
 
-## Please refer the instructions in below URL:
+## Introduction
+## Problem
+## Solution 
 
-https://projects.ce.pdn.ac.lk/docs/how-to-add-a-project
+

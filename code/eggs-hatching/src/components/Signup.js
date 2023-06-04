@@ -35,7 +35,7 @@ export default function Signup() {
 
   return (
     <div className="d-flex justify-content-center align-items-center vh-100">
-      <Card className="text-center" style={{ width: '25rem' }}>
+      <Card className="text-center px-4 py-3" style={{ width: '25rem' }}>
         <Card.Body>
           <h2 className='text-center mb-4'>Sign up</h2>
 

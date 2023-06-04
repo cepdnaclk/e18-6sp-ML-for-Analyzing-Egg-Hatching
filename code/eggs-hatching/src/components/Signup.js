@@ -36,7 +36,8 @@ export default function Signup() {
 
   return (
     <>
-        <Card>
+    <div className="d-flex justify-content-center align-items-center vh-100">
+        <Card className="text-center" style={{ width: '25rem' }}>
             <Card.Body>
                 <h2 className='text-center mb-4'>Sign up</h2>
                 
@@ -61,9 +62,11 @@ export default function Signup() {
                     <Button disabled = {loading} className='w-100' type='submit'>Sign Up</Button>
                 </Form>
             </Card.Body>
-        </Card>
-        <div className='w-100 text-center mt-2'>
+            <div className='w-100 text-center mt-2'>
             Already have an account? <Link to="/login">Log In</Link> 
+        </div>
+        </Card>
+        
         </div>
     </>
   )

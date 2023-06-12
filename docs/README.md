@@ -26,7 +26,8 @@ title:
 1. [Introduction](#introduction)
 2. [Problem and Solution](#problem-and-solution)
 3. [Technology Stack](#technology-stack)
-4. [Links](#links)
+4. [Work Plan](#work-plan)
+5. [Links](#links)
 
 ---
 
@@ -34,9 +35,21 @@ title:
 
  description of the real world problem and solution, impact
 
+ ![Sample Image](./images/life-cycle-of-eggs.png)
+
 ## Problem and Solution
 
+![Sample Image](./images/problem-domain.png)
+
+![Sample Image](./images/our-solution.png)
+
 ## Technology Stack
+
+![Sample Image](./images/dashboard-tech-stack.png)
+
+## Work Plan
+
+![Sample Image](./images/work-plan.png)
 
 ## Links
 

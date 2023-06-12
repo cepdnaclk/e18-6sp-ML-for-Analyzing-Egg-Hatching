@@ -33,7 +33,7 @@ title:
 
 ## Introduction
 
- description of the real world problem and solution, impact
+ The poultry industry faces significant challenges when it comes to the hatching process in breeder farms. Poultry farmers invest considerable resources and effort into incubating eggs, but the outcomes are often uncertain and unpredictable. This unpredictability leads to inefficiencies, economic losses, and compromised animal welfare. Additionally, the lack of accurate predictions regarding the number of eggs that will successfully hatch and the health of the resulting chicks hinders the ability of farmers to make informed decisions and optimize their breeding programs. Consequently, there is a pressing need to address these challenges and improve the overall hatching success rate in the poultry industry.
 
  ![Life Cycle](./images/life-cycle-of-eggs.PNG)
 

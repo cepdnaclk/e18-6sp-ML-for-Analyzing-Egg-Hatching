@@ -1,0 +1,29 @@
+.above {
+    z-index: 999;
+}
+.form-control:hover {
+    border-color: #00bfff; /* Change the border color on hover */
+  }
+  
+  .form-control:focus {
+    border-color: #00bfff; /* Change the border color when focused */
+    box-shadow: 0 0 5px rgba(0, 191, 255, 0.5); /* Add a box shadow when focused */
+  }
+  
+  /* Add animation to the input fields */
+  @keyframes inputAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .input-animation {
+    animation: inputAnimation 1s infinite;
+  }
+  

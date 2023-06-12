@@ -39,12 +39,12 @@ export default function NavBar() {
             navbarScroll
           >
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#action2">Data</Nav.Link>
+            <Nav.Link href="#action2">Compare Relations</Nav.Link>
             
-            <NavDropdown title="Documents" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Test1</NavDropdown.Item>
+            <NavDropdown title="Downloads" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Report</NavDropdown.Item>
               <NavDropdown.Item href="#">
-                Test2
+                Previous Report
               </NavDropdown.Item>
               
               <NavDropdown.Divider />
@@ -54,16 +54,14 @@ export default function NavBar() {
               </NavDropdown.Item>
             </NavDropdown>
             
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+            
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
           
           <Image src="" roundedCircle={true}></Image>
           <NavDropdown title={currentUser.email} id="navbarScrollingDropdown">
               <NavDropdown.Item href="/profile">Profile</NavDropdown.Item>
-              <NavDropdown.Item href="/update-profile">Update Profile</NavDropdown.Item>
+              <NavDropdown.Item href="/update-profile">Update Farm Details</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Settings
               </NavDropdown.Item>

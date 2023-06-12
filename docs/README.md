@@ -35,21 +35,21 @@ title:
 
  description of the real world problem and solution, impact
 
- ![Sample Image](./images/life-cycle-of-eggs.png)
+ ![Life Cycle](./images/life-cycle-of-eggs.PNG)
 
 ## Problem and Solution
 
-![Sample Image](./images/problem-domain.png)
+![Problem Domain](./images/problem-domain.PNG)
 
-![Sample Image](./images/our-solution.png)
+![Solution](./images/our-solution.PNG)
 
 ## Technology Stack
 
-![Sample Image](./images/dashboard-tech-stack.png)
+![Software side](./images/dashboard-tech-stack.PNG)
 
 ## Work Plan
 
-![Sample Image](./images/work-plan.png)
+![work plan](./images/work-plan.PNG)
 
 ## Links
 

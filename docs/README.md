@@ -42,7 +42,7 @@ The inability to predict the hatchability of eggs before incubation leads to ine
 
 Implementing a machine learning (ML) model to predict egg hatchability offers significant benefits for breeder farms. By analyzing various factors and patterns related to egg characteristics and breeding conditions, the ML model can accurately determine the likelihood of an egg successfully hatching. This enables farmers to avoid wasting resources on eggs with low hatchability potential, optimizing incubation space and reducing electricity consumption. 
 
-![Problem Domain](./images/problem-domain.PNG)
+
 
 ![Solution](./images/our-solution.PNG)
 

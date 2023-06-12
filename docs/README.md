@@ -38,6 +38,9 @@ title:
  ![Life Cycle](./images/life-cycle-of-eggs.PNG)
 
 ## Problem and Solution
+We are going to offer a promising solution to the challenges faced by the poultry industry by predicting successful hatching eggs. By harnessing the power of machine learning algorithms, we can analyze a wide range of influential factors such as the age of parent chickens, feed amount, sex ratio and environmental conditions. These factors are crucial determinants of hatching success.
+
+Through our project, we develop predictive models that can accurately forecast the number of eggs that will hatch successfully and predict the likelihood of producing healthy chicks. By leveraging historical data and identifying patterns and correlations, our models provide valuable insights to poultry farmers. Armed with this information, farmers can make data-driven decisions, optimize their breeding programs, and implement necessary interventions to maximize hatching success and chick health.
 
 ![Problem Domain](./images/problem-domain.PNG)
 

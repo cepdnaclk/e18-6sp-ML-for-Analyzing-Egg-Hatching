@@ -3,30 +3,30 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: eYY-XXX-project-template
+repository-name: e18-6sp-ML-for-Analyzing-Egg-Hatching
 title:
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# ML for Analyzing Egg Hatching
 
 ---
 
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
 
-![Sample Image](./images/sample.png)
+![Egg_hatching](https://images.immediate.co.uk/production/volatile/sites/4/2019/10/GettyImages-72983839-c-8d84a80.jpg?quality=90&crop=9px,122px,2095px,901px&resize=940,400)
 
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/18/030, Aththanayake A.M.S., [email](mailto:e18030@eng.pdn.ac.lk)
+-  E/18/282, Ranasinghe R.A.N.S., [email](mailto:e18282@eng.pdn.ac.lk)
+-  E/18/283, Ranasinghe R.D.J.M., [email](mailto:e18283@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Other Sub Topics](#other-sub-topics)
-3. [Links](#links)
+2. [Problem and Solution](#problem-and-solution)
+3. [Technology Stack](#technology-stack)
+4. [Links](#links)
 
 ---
 
@@ -34,9 +34,9 @@ This is a sample image, to show how to add images to your page. To learn more op
 
  description of the real world problem and solution, impact
 
-## Other Sub Topics
+## Problem and Solution
 
-.....
+## Technology Stack
 
 ## Links
 

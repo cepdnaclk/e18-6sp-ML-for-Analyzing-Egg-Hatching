@@ -33,13 +33,16 @@ title:
 
 ## Introduction
 
- description of the real world problem and solution, impact
+Egg hatching is a vast biological process that depends on various factors. The successful incubation of eggs plays a crucial role in the poultry industry. However, accurately determining the hatchability of eggs before they enter the incubation process remains a challenge for farmers. Currently, eggs are categorized based on their external appearance, but this method does not provide a definitive indication of whether an egg will hatch or not. As a result, farmers often face the risk of wasting valuable resources, such as incubation space and electricity, on eggs that will not successfully hatch.
 
  ![Life Cycle](./images/life-cycle-of-eggs.PNG)
 
 ## Problem and Solution
+The inability to predict the hatchability of eggs before incubation leads to inefficiencies and economic losses for breeder farms. Eggs that are unlikely to hatch still occupy space within the incubators and consume electricity throughout the 21-day incubation period. Additionally, the uncertainty surrounding hatchability makes it difficult for farms to accurately supply the required daily demand. Therefore, there is a need for a reliable method to determine the likelihood of hatchability for eggs before they are placed in the incubators.
 
-![Problem Domain](./images/problem-domain.PNG)
+Implementing a machine learning (ML) model to predict egg hatchability offers significant benefits for breeder farms. By analyzing various factors and patterns related to egg characteristics and breeding conditions, the ML model can accurately determine the likelihood of an egg successfully hatching. This enables farmers to avoid wasting resources on eggs with low hatchability potential, optimizing incubation space and reducing electricity consumption. 
+
+
 
 ![Solution](./images/our-solution.PNG)
 

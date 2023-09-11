@@ -37,7 +37,7 @@ const DataInputForm = () => {
       const values = await form.validateFields();
       console.log(values);
       // Send data to your API endpoint using Axios or another HTTP library
-      const response = await axios.post('your_api_endpoint_url', values);
+      const response = await axios.post('http://localhost:5000/predict', values);
       console.log('Data sent successfully:', response.data);
     } catch (error) {
       console.error('Error:', error);
@@ -60,28 +60,28 @@ const DataInputForm = () => {
         }}
       >
         
-        <Form.Item name="age" label="Age">
+        <Form.Item name="Age" label="Age">
           <InputNumber />
         </Form.Item>
-        <Form.Item name="mortality-male" label="Mortality-Male">
+        <Form.Item name="Mortality male" label="Mortality-Male">
           <InputNumber />
         </Form.Item>
-        <Form.Item name="mortality-female" label="Mortality-Female">
+        <Form.Item name="Mortality female" label="Mortality-Female">
           <InputNumber />
         </Form.Item>
-        <Form.Item name="sex-ratio" label="Sex-Ratio">
+        <Form.Item name="sex ratio" label="Sex-Ratio">
           <InputNumber />
         </Form.Item>
-        <Form.Item name="total-eggs" label="Total-Eggs">
+        <Form.Item name="Total Eggs" label="Total-Eggs">
           <InputNumber />
         </Form.Item>
-        <Form.Item name="egg-weight" label="Egg-Weight">
+        <Form.Item name="Egg Weight" label="Egg-Weight">
           <InputNumber />
         </Form.Item>
-        <Form.Item name="feed-male" label="Feed-Male">
+        <Form.Item name="Feed male" label="Feed-Male">
           <InputNumber />
         </Form.Item>
-        <Form.Item name="feed-female" label="Feed-Female">
+        <Form.Item name="Feed female" label="Feed-Female">
           <InputNumber />
         </Form.Item>
         

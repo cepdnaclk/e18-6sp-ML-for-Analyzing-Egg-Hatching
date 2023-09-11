@@ -8,6 +8,7 @@ import NavBar from './NavBar';
 import SortOptions from './SortOptions';
 import MultiLineRejected from './MultiLineRejected';
 import MultiLineDoubleYolk from './MultiLineDoubleYolk';
+import DataInputForm from './DataInputForm';
 
 
 
@@ -44,7 +45,9 @@ export default function Dashboard() {
           
         </ul>
       </nav>
-          
+          <div id="enter_data" className='p-4'>
+            <DataInputForm/>
+          </div>
           <div id="rejected_eggs">
             <MultiLineRejected/>
           </div>

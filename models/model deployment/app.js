@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const Data = require("./database/data");
 const db = require("./database/db");
 const cors = require('cors');
+const mongoose = require("mongoose");
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -87,6 +88,19 @@ app.post('/predict', (req, res) => {
         res.status(500).json({ error: 'An error occurred while running the Python script.' });
       }
     });
+});
+
+app.get('/test-data', async (req, res) => {
+  try {
+    // Access the "datas" collection from your MongoDB database
+    const data = await mongoose.connection.db.collection('datas').find({}).toArray();
+
+    // Send the retrieved data as a JSON response
+    res.json(data);
+  } catch (error) {
+    console.error('Error:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 });
   
 

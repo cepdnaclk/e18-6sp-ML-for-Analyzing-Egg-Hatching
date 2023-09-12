@@ -1,5 +1,7 @@
-import React, { Component } from 'react'
-import Chart from 'react-google-charts'
+import { response } from 'express';
+import React, { Component } from 'react';
+import Chart from 'react-google-charts';
+import axios from 'axios';
 // const LineData = [
 //   ['x', 'According to the current data', 'Normal number of rejected eggs'],
 //   [0, 0, 0],
@@ -12,13 +14,25 @@ import Chart from 'react-google-charts'
 //   [7, 27, 19]
 // ]
 
-const getRandomDataForMonth = function(line1, line2){
-    var lineData = [['x',line1,line2],[0, 0, 0],]
+const getRandomDataForMonth = async () => {
+    
+    var lineData = [['prediction','Total eggs','Sex Ratio'],[0, 0, 0],]
+
+    try {
+      
+      // Send data to your API endpoint using Axios or another HTTP library
+      const response = await axios.get('http://localhost:5000/test-data');
+      console.log('Data read successfully:', response.data);
    
-    for(let i = 0; i < 30; i++){
-        var a = [i, Math.random() * 30, Math.random() * 25 ]
-        lineData.push(a)
+    response.data.forEach(element => {
+      var a = [element.prediction, element.total_eggs, element.sex_ratio];
+      lineData.push(a);
+    });
+
+    } catch (error) {
+      console.error('Error:', error);
     }
+  
     console.log(lineData)
     return lineData
 }

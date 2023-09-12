@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 function connect() {
   return new Promise((resolve, reject) => {
     mongoose
-      .connect("mongodb://127.0.0.1/paultrydb", { useNewUrlParser: true })
+      .connect("mongodb+srv://jayathrimr:8iLwIkgw9vVA5q0i@egg-hatching.ofmofr9.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true })
       .then((res, err) => {
         if (err) return reject(err);
         resolve();

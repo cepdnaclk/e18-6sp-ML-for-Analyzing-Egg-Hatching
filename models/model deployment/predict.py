@@ -2,9 +2,11 @@ import pickle
 import sys
 import json
 import numpy as np  
+import joblib
 
 # Load the decision tree model
 model_file = 'decision_tree_model.pkl'
+
 with open(model_file, 'rb') as model:
     clf = pickle.load(model)
 

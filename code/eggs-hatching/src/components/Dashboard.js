@@ -35,7 +35,7 @@ export default function Dashboard() {
           <SortOptions/>
 
           <nav>
-        <ul>
+        {/* <ul>
           <li>
             <a href="#rejected_eggs">Rejected Eggs</a>
           </li>
@@ -43,7 +43,7 @@ export default function Dashboard() {
             <a href="#double_yolk_eggs">Double Yolk Eggs</a>
           </li>
           
-        </ul>
+        </ul> */}
       </nav>
           <div id="enter_data" className='p-4'>
             <DataInputForm/>

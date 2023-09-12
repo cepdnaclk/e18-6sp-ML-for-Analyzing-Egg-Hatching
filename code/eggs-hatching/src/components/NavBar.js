@@ -30,7 +30,7 @@ export default function NavBar() {
     
     <Navbar style={{ backgroundColor: 'white', boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', padding: '10px 20px', paddingLeft: '30px' }} variant="light" expand="lg" sticky="top" className="custom-navbar">
       <Container fluid>
-        <Navbar.Brand href="#">Chicks</Navbar.Brand>
+        <Navbar.Brand href="#">Egg Hatchability Predictor</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -38,10 +38,10 @@ export default function NavBar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#action2">Compare Relations</Nav.Link>
+            {/* <Nav.Link href="/">Home</Nav.Link> */}
+            {/* <Nav.Link href="#action2">Compare Relations</Nav.Link> */}
             
-            <NavDropdown title="Downloads" id="navbarScrollingDropdown">
+            {/* <NavDropdown title="Downloads" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Report</NavDropdown.Item>
               <NavDropdown.Item href="#">
                 Previous Report
@@ -52,10 +52,10 @@ export default function NavBar() {
               <NavDropdown.Item href="#action5">
                 FAQ
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
             
             
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            {/* <Nav.Link href="#contact">Contact</Nav.Link> */}
           </Nav>
           
           <Image src="" roundedCircle={true}></Image>

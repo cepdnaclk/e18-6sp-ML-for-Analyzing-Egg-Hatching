@@ -54,7 +54,7 @@ const DataInputForm = () => {
       
       <Form form={form}
         labelCol={{
-          span: 10,
+          span: 15,
         }}
         wrapperCol={{
           span: 20,
@@ -118,7 +118,7 @@ const DataInputForm = () => {
       </Row>
 
       <Row>
-        <Col span={24} className="text-center">
+        <Col span={12} className="text-center">
           <Form.Item label="">
             <Button type="primary" onClick={handleSubmit}>
               Predict
@@ -135,13 +135,15 @@ const DataInputForm = () => {
         </Form.Item> */}
         
       </Form>
-      <div>
-      {responseData && (
-        <div>
-          <h4>Prediction:</h4>
-          <h3><pre>{JSON.stringify(responseData.prediction, null, 2)}</pre></h3>
-        </div>
-      )}
+      <div style={{border: '1px solid #000'}} className='p-5'>
+        <h5>Predicted No of Eggs: 
+        {responseData && (
+          <div style={{ textAlign: 'center' }}>
+            <p></p>
+            <h3><pre>{JSON.stringify(responseData.prediction, null, 2)}</pre></h3>
+          </div>
+        )}
+        </h5>
       </div>
     </>
   );

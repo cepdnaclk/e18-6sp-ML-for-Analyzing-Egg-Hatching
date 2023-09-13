@@ -7,7 +7,7 @@ import Dashboard from "./Dashboard"
 import ForgotPassword from "./ForgotPassword"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import PrivateRoute from "./PrivateRoute";
-import MultiLineRejected from "./MultiLineRejected";
+import MultiLineRejected from "./MultiChart";
 
 
 

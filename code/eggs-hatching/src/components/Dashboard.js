@@ -6,9 +6,10 @@ import 'firebase/compat/firestore';
 
 import NavBar from './NavBar';
 import SortOptions from './SortOptions';
-import MultiLineRejected from './MultiLineRejected';
 import MultiLineDoubleYolk from './MultiLineDoubleYolk';
 import DataInputForm from './DataInputForm';
+import PredictionAndDate from './PredictionAndDate';
+import MultiChart from './MultiChart';
 
 
 
@@ -29,31 +30,19 @@ export default function Dashboard() {
    
     return (
         
-      <div className='content'>
+      <div className='row'>
       
           <NavBar/>
-          <SortOptions/>
 
-          <nav>
-        {/* <ul>
-          <li>
-            <a href="#rejected_eggs">Rejected Eggs</a>
-          </li>
-          <li>
-            <a href="#double_yolk_eggs">Double Yolk Eggs</a>
-          </li>
           
-        </ul> */}
-      </nav>
-          <div id="enter_data" className='p-4'>
+          <div id="enter_data" className="col-md-5 p-5 align-items-center">
             <DataInputForm/>
           </div>
-          <div id="rejected_eggs">
-            <MultiLineRejected/>
+          <div id="predicted_hatch" className="col-md-7">
+            <PredictionAndDate/>
           </div>
-
-          <div id="double_yolk_eggs">
-            <MultiLineDoubleYolk/>
+          <div id="multi_chart" className='p-5'>
+            <MultiChart/>
           </div>
           
           

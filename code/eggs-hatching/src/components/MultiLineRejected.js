@@ -1,4 +1,4 @@
-import { response } from 'express';
+
 import React, { Component } from 'react';
 import Chart from 'react-google-charts';
 import axios from 'axios';
@@ -33,7 +33,7 @@ const getRandomDataForMonth = async () => {
       console.error('Error:', error);
     }
   
-    console.log(lineData)
+    console.log("test"+lineData)
     return lineData
 }
 

@@ -28,7 +28,7 @@ function PredictionAndDate() {
     axios.get('http://localhost:5000/test-data')
       .then((response) => {
           // Handle the successful response Date(createdAt).toLocaleDateString()
-          
+          lineData.splice(2, lineData.length);
           response.data.forEach(element => {
             const date = new Date(element.createdAt);
             var a = [date.toLocaleDateString(), element.prediction];

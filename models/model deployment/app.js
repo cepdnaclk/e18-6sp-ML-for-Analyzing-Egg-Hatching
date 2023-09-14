@@ -1,7 +1,7 @@
 const express = require('express');
 const { spawn } = require('child_process');
 const bodyParser = require('body-parser');
-const Data = require("./database/data");
+const Record = require("./database/record");
 const db = require("./database/db");
 const cors = require('cors');
 const mongoose = require("mongoose");
@@ -43,7 +43,7 @@ function extractNumberFromHex(hexString) {
 app.post('/predict', (req, res) => {
     const inputData = req.body;
 
-    const newData = new Data({
+    const newData = new Record({
                 
             total_eggs : inputData["Total Eggs"],
             sex_ratio : inputData["sex ratio"],
@@ -58,7 +58,7 @@ app.post('/predict', (req, res) => {
 
         // const data = await newData.save();    
   
-    const pythonProcess = spawn('python', ['predict.py', JSON.stringify(inputData)]);
+    const pythonProcess = spawn('python3', ['predict.py', JSON.stringify(inputData)]);
 
   
     let prediction = 0;
@@ -93,7 +93,7 @@ app.post('/predict', (req, res) => {
 app.get('/test-data', async (req, res) => {
   try {
     // Access the "datas" collection from your MongoDB database
-    const data = await mongoose.connection.db.collection('datas').find({}).toArray();
+    const data = await mongoose.connection.db.collection('records').find({}).toArray();
 
     // Send the retrieved data as a JSON response
     res.json(data);

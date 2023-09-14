@@ -41,4 +41,4 @@ const PaultryDataSchema = new mongoose.Schema({
 }
 );
 
-module.exports = mongoose.model("Data",PaultryDataSchema)
+module.exports = mongoose.model("Record",PaultryDataSchema)

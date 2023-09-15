@@ -53,7 +53,6 @@ Implementing a machine learning (ML) model to predict egg hatchability offers si
 
 ## Machine Learning Model 
 
-### Decision tree model with Gini Index
 
 In our project, we employed a Decision Tree model with the Gini index criterion. This section outlines the key steps and insights from our machine learning approach.
 

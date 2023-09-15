@@ -56,15 +56,15 @@ Implementing a machine learning (ML) model to predict egg hatchability offers si
 
 In our project, we employed a Decision Tree model with the Gini index criterion. This section outlines the key steps and insights from our machine learning approach.
 
-### Modeling approch
+#### Modeling approch
 
 We chose the Decision Tree algorithm due to its interpretability and versatility. The Gini index was used as the splitting criterion, allowing the model to make decisions based on information gain and class impurity reduction.To control the complexity of our Decision Tree, we set a maximum depth of 12 nodes. This choice was based on an iterative process that involved fine-tuning various hyperparameters.
 
-### Pruning
+#### Pruning
 
 Pruning is crucial for preventing overfitting. We carefully pruned our Decision Tree to find the optimal balance between complexity and performance.
 
-### Cross validation
+#### Cross validation
 
 To ensure our model's robustness and generalization performance, we utilized cross-validation. This technique involves splitting the data into multiple subsets, training the model on different combinations, and evaluating its performance across various folds.
 
